@@ -4,6 +4,7 @@
 ## 目錄
 * [內容](#內容)
 * [資料](#資料)
+* [重建與新增](#重建與新增)
 
 ## 內容
 在 main.py 中：
@@ -26,3 +27,9 @@
 |pokemon.sql|從 database.db 導出的寶可夢能力資料|
 |tdv_data.sql|從 database.db 導出的寶可夢三防數值資料|
 |ultimate_pokemon.csv|彙整最終進化型的列表資料|
+
+## 重建與新增
+有時資料不完整或是遺失，您可以使用 main.py 進行重建，
+三防數值資料重建後，會包含在 database.db 中。
+
+    python chess.py
