@@ -32,4 +32,4 @@
 有時資料不完整或是遺失，您可以使用 main.py 進行重建，
 三防數值資料重建後，會包含在 database.db 中。
 
-    python chess.py
+    python main.py
